@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace FullWOTDocumentation
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void MainForm_SizeChanged(object sender, EventArgs e)
+        {
+            panelTreeTanks.Height = ClientSize.Height;
+            panelTreeTanks.Width = ClientSize.Width;
         }
     }
 }
