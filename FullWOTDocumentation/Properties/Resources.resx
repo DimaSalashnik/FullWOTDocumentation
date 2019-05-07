@@ -121,13 +121,13 @@
   <data name="USA_False" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pictures\Nations\USA_False.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="england_false" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="England_False" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pictures\Nations\england_false.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sweden_False" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pictures\Nations\Sweden_False.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="poland_false" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Poland_False" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pictures\Nations\poland_false.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="USSR_False" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -136,19 +136,49 @@
   <data name="Germany_False" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pictures\Nations\germany_false.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="china_false" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="China_False" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pictures\Nations\china_false.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Czechohoslovakia_False" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pictures\Nations\Czechohoslovakia_False.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="japan_false" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Japan_False" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pictures\Nations\japan_false.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="france_false" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="France_False" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pictures\Nations\france_false.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="italy_false" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Italy_False" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pictures\Nations\italy_false.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="China_True" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Nations\China_True.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Czechohoslovakia_True" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Nations\Czechohoslovakia_True.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="England_True" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Nations\england_true.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="France_True" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Nations\france_true.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Germany_True" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Nations\Germany_True.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Italy_True" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Nations\italy_true.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Japan_True" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Nations\japan_true.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Poland_True" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Nations\Poland_True.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sweden_True" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Nations\Sweden_True.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="USSR_True" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Nations\USSR_True.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

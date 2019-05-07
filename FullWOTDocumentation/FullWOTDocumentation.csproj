@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -67,6 +71,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -84,34 +89,64 @@
     <None Include="Pictures\Nations\USSR_False.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Pictures\Nations\germany_false.png" />
+    <None Include="Pictures\Nations\Germany_False.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pictures\Nations\USA_False.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Pictures\Nations\france_false.png" />
+    <None Include="Pictures\Nations\France_False.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Pictures\Nations\england_false.png" />
+    <None Include="Pictures\Nations\England_False.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pictures\Nations\Czechohoslovakia_False.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Pictures\Nations\china_false.png" />
+    <None Include="Pictures\Nations\China_False.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Pictures\Nations\japan_false.png" />
+    <None Include="Pictures\Nations\Japan_False.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Pictures\Nations\poland_false.png" />
+    <None Include="Pictures\Nations\Poland_False.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pictures\Nations\Sweden_False.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Pictures\Nations\italy_false.png" />
+    <None Include="Pictures\Nations\Italy_False.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Nations\China_True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Nations\Czechohoslovakia_True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Nations\England_True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Nations\France_True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Nations\Germany_True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Nations\Italy_True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Nations\Japan_True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Nations\Poland_True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Nations\Sweden_True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Nations\USSR_True.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

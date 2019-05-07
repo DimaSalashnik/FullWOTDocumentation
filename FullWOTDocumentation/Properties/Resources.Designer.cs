@@ -63,9 +63,19 @@ namespace FullWOTDocumentation.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap china_false {
+        internal static System.Drawing.Bitmap China_False {
             get {
-                object obj = ResourceManager.GetObject("china_false", resourceCulture);
+                object obj = ResourceManager.GetObject("China_False", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap China_True {
+            get {
+                object obj = ResourceManager.GetObject("China_True", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +93,9 @@ namespace FullWOTDocumentation.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap england_false {
+        internal static System.Drawing.Bitmap Czechohoslovakia_True {
             get {
-                object obj = ResourceManager.GetObject("england_false", resourceCulture);
+                object obj = ResourceManager.GetObject("Czechohoslovakia_True", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +103,39 @@ namespace FullWOTDocumentation.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap france_false {
+        internal static System.Drawing.Bitmap England_False {
             get {
-                object obj = ResourceManager.GetObject("france_false", resourceCulture);
+                object obj = ResourceManager.GetObject("England_False", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap England_True {
+            get {
+                object obj = ResourceManager.GetObject("England_True", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap France_False {
+            get {
+                object obj = ResourceManager.GetObject("France_False", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap France_True {
+            get {
+                object obj = ResourceManager.GetObject("France_True", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +153,9 @@ namespace FullWOTDocumentation.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap italy_false {
+        internal static System.Drawing.Bitmap Germany_True {
             get {
-                object obj = ResourceManager.GetObject("italy_false", resourceCulture);
+                object obj = ResourceManager.GetObject("Germany_True", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +163,9 @@ namespace FullWOTDocumentation.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap japan_false {
+        internal static System.Drawing.Bitmap Italy_False {
             get {
-                object obj = ResourceManager.GetObject("japan_false", resourceCulture);
+                object obj = ResourceManager.GetObject("Italy_False", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +173,49 @@ namespace FullWOTDocumentation.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap poland_false {
+        internal static System.Drawing.Bitmap Italy_True {
             get {
-                object obj = ResourceManager.GetObject("poland_false", resourceCulture);
+                object obj = ResourceManager.GetObject("Italy_True", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Japan_False {
+            get {
+                object obj = ResourceManager.GetObject("Japan_False", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Japan_True {
+            get {
+                object obj = ResourceManager.GetObject("Japan_True", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Poland_False {
+            get {
+                object obj = ResourceManager.GetObject("Poland_False", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Poland_True {
+            get {
+                object obj = ResourceManager.GetObject("Poland_True", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -146,6 +226,16 @@ namespace FullWOTDocumentation.Properties {
         internal static System.Drawing.Bitmap Sweden_False {
             get {
                 object obj = ResourceManager.GetObject("Sweden_False", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sweden_True {
+            get {
+                object obj = ResourceManager.GetObject("Sweden_True", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +256,16 @@ namespace FullWOTDocumentation.Properties {
         internal static System.Drawing.Bitmap USSR_False {
             get {
                 object obj = ResourceManager.GetObject("USSR_False", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap USSR_True {
+            get {
+                object obj = ResourceManager.GetObject("USSR_True", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
