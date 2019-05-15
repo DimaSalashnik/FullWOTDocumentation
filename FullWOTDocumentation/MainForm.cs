@@ -17,76 +17,101 @@ namespace FullWOTDocumentation
 
         //изменение размера окна
         private void MainForm_SizeChanged(object sender, EventArgs e){
-            panelTreeTanks.Height = ClientSize.Height;
-            panelTreeTanks.Width = ClientSize.Width;
+            panelTreeTanksUSSR.Height = ClientSize.Height;
+            panelTreeTanksUSSR.Width = ClientSize.Width - 85;
         }
-
-        ComponentResourceManager resources = new ComponentResourceManager(typeof(Image));
-        private void PictureBoxUSSRNation_Click(object sender, EventArgs e){
-            try {if (pictureBoxUSSRNation.Image == (Image)resources.GetObject("USSR_False.png"))
-                    pictureBoxUSSRNation.Image = (Image)resources.GetObject("USSR_True.png");
-                else pictureBoxUSSRNation.Image = (Image)resources.GetObject("USSR_False.png");}
-            catch (Exception error) { MessageBox.Show(error.ToString()); }
+        //метод для сброса нажатых кнопок
+        private void ResetOfPressetButtons()
+        {
+            buttonUSSRNation.ImageIndex = 0;
+            buttonGermanyNation.ImageIndex = 2;
+            buttonUSANation.ImageIndex = 4;
+            buttonEnglandNation.ImageIndex = 6;
+            buttonCzehoslovakiaNation.ImageIndex = 8;
+            buttonChinaNation.ImageIndex = 10;
+            buttonJapanNation.ImageIndex = 12;
+            buttonFranceNation.ImageIndex = 14;
+            buttonPolandNation.ImageIndex = 16;
+            buttonSwedenNation.ImageIndex = 18;
+            buttonItalyNation.ImageIndex = 20;
         }
-        private void PictureBoxGermanyNation_Click(object sender, EventArgs e){
-            try {if (pictureBoxGermanyNation.Image == (Image)resources.GetObject("Germany_False.png"))
-                    pictureBoxGermanyNation.Image = (Image)resources.GetObject("Germany_True.png");
-                 else pictureBoxGermanyNation.Image = (Image)resources.GetObject("Germany_False.png");}
-            catch (Exception error) { MessageBox.Show(error.ToString()); }
+        private void ButtonUSSRNation_Click(object sender, EventArgs e)
+        {
+            ResetOfPressetButtons();
+            if (buttonUSSRNation.ImageIndex == 0) { buttonUSSRNation.ImageIndex = 1; }
+            else { buttonUSSRNation.ImageIndex = 0; }
         }
-        private void PictureBoxUSANation_Click(object sender, EventArgs e){
-            try {if (pictureBoxUSANation.Image == (Image)resources.GetObject("USA_False.png"))
-                    pictureBoxUSANation.Image = (Image)resources.GetObject("USA_True.png");
-                else pictureBoxUSANation.Image = (Image)resources.GetObject("USA_False.png");}
-            catch (Exception error) { MessageBox.Show(error.ToString()); }
+        private void ButtonGermanyNation_Click(object sender, EventArgs e)
+        {
+            //ResetOfPressetButtons();
+            //if (buttonGermanyNation.ImageIndex == 2) { buttonGermanyNation.ImageIndex = 3; }
+            //else { buttonGermanyNation.ImageIndex = 2; }
+            MessageBox.Show("Эта нация еще в разработке");
         }
-        private void PictureBoxFranceNation_Click(object sender, EventArgs e){
-            try {if (pictureBoxFranceNation.Image == (Image)resources.GetObject("France_False.png"))
-                    pictureBoxFranceNation.Image = (Image)resources.GetObject("France_True.png");
-                else pictureBoxFranceNation.Image = (Image)resources.GetObject("France_False.png");}
-            catch (Exception error) { MessageBox.Show(error.ToString()); }
+        private void ButtonUSANation_Click(object sender, EventArgs e)
+        {
+            //ResetOfPressetButtons();
+            //if (buttonUSANation.ImageIndex == 4) { buttonUSANation.ImageIndex = 5; }
+            //else { buttonUSANation.ImageIndex = 4; }
+            MessageBox.Show("Эта нация еще в разработке");
         }
-        private void PictureBoxEnglandNation_Click(object sender, EventArgs e){
-            try {if (pictureBoxEnglandNation.Image == (Image)resources.GetObject("England_False.png"))
-                    pictureBoxEnglandNation.Image = (Image)resources.GetObject("England_True.png");
-                else pictureBoxEnglandNation.Image = (Image)resources.GetObject("England_False.png");}
-            catch (Exception error) { MessageBox.Show(error.ToString()); }
+        private void ButtonEnglandNation_Click(object sender, EventArgs e)
+        {
+            //ResetOfPressetButtons();
+            //if (buttonEnglandNation.ImageIndex == 6) { buttonEnglandNation.ImageIndex = 7; }
+            //else { buttonEnglandNation.ImageIndex = 6; }
+            MessageBox.Show("Эта нация еще в разработке");
         }
-        private void PictureBoxCzehoslovakiaNation_Click(object sender, EventArgs e){
-            try {if (pictureBoxCzehoslovakiaNation.Image == (Image)resources.GetObject("Czehoslovakia_False.png"))
-                    pictureBoxCzehoslovakiaNation.Image = (Image)resources.GetObject("Czehoslovakia_True.png");
-                else pictureBoxCzehoslovakiaNation.Image = (Image)resources.GetObject("Czehoslovakia_False.png");}
-            catch (Exception error) { MessageBox.Show(error.ToString()); }
+        private void ButtonCzehoslovakiaNation_Click(object sender, EventArgs e)
+        {
+            //ResetOfPressetButtons();
+            //if (buttonCzehoslovakiaNation.ImageIndex == 8)
+            //{ buttonCzehoslovakiaNation.ImageIndex = 9; }
+            //else
+            //{ buttonCzehoslovakiaNation.ImageIndex = 8; }
+            MessageBox.Show("Эта нация еще в разработке");
         }
-        private void PictureBoxChinaNation_Click(object sender, EventArgs e){
-            try {if (pictureBoxChinaNation.Image == (Image)resources.GetObject("China_False.png"))
-                    pictureBoxChinaNation.Image = (Image)resources.GetObject("China_True.png");
-                else pictureBoxChinaNation.Image = (Image)resources.GetObject("China_False.png");}
-            catch (Exception error) { MessageBox.Show(error.ToString()); }
+        private void ButtonChinaNation_Click(object sender, EventArgs e)
+        {
+            //ResetOfPressetButtons();
+            //if (buttonChinaNation.ImageIndex == 10) { buttonChinaNation.ImageIndex = 11; }
+            //else { buttonChinaNation.ImageIndex = 10; }
+            MessageBox.Show("Эта нация еще в разработке");
         }
-        private void PictureBoxJapanNation_Click(object sender, EventArgs e){
-            try {if (pictureBoxJapanNation.Image == (Image)resources.GetObject("Japan_False.png"))
-                    pictureBoxJapanNation.Image = (Image)resources.GetObject("Japan_True.png");
-                else pictureBoxJapanNation.Image = (Image)resources.GetObject("Japan_False.png");}
-            catch (Exception error) { MessageBox.Show(error.ToString()); }
+        private void ButtonJapanNation_Click(object sender, EventArgs e)
+        {
+        //    ResetOfPressetButtons();
+        //    if (buttonJapanNation.ImageIndex == 12) { buttonJapanNation.ImageIndex = 13; }
+        //    else { buttonJapanNation.ImageIndex = 12; }
+            MessageBox.Show("Эта нация еще в разработке");
         }
-        private void PictureBoxPolandNation_Click(object sender, EventArgs e){
-            try {if (pictureBoxPolandNation.Image == (Image)resources.GetObject("Poland_False.png"))
-                    pictureBoxPolandNation.Image = (Image)resources.GetObject("Poland_True.png");
-                else pictureBoxPolandNation.Image = (Image)resources.GetObject("Poland_False.png");}
-            catch (Exception error) { MessageBox.Show(error.ToString()); }
+        private void ButtonFranceNation_Click(object sender, EventArgs e)
+        {
+            //ResetOfPressetButtons();
+            //if (buttonFranceNation.ImageIndex == 14) { buttonFranceNation.ImageIndex = 15; }
+            //else { buttonFranceNation.ImageIndex = 14; }
+            MessageBox.Show("Эта нация еще в разработке");
         }
-        private void PictureBoxSwedenNation_Click(object sender, EventArgs e){
-            try {if (pictureBoxSwedenNation.Image == (Image)resources.GetObject("Sweden_False.png"))
-                    pictureBoxSwedenNation.Image = (Image)resources.GetObject("Sweden_True.png");
-                else pictureBoxSwedenNation.Image = (Image)resources.GetObject("Sweden_False.png");}
-            catch (Exception error) { MessageBox.Show(error.ToString()); }
+        private void ButtonPolandNation_Click(object sender, EventArgs e)
+        {
+            //ResetOfPressetButtons();
+            //if (buttonPolandNation.ImageIndex == 16) { buttonPolandNation.ImageIndex = 17; }
+            //else { buttonPolandNation.ImageIndex = 16; }
+            MessageBox.Show("Эта нация еще в разработке");
         }
-        private void PictureBoxItalyNation_Click(object sender, EventArgs e){
-           try {if (pictureBoxItalyNation.Image == (Image)resources.GetObject("Italy_False.png"))
-                    pictureBoxItalyNation.Image = (Image)resources.GetObject("Italy_True.png");
-                else pictureBoxItalyNation.Image = (Image)resources.GetObject("Italy_False.png");}
-           catch (Exception error) { MessageBox.Show(error.ToString()); }
+        private void ButtonSwedenNation_Click(object sender, EventArgs e)
+        {
+            //ResetOfPressetButtons();
+            //if (buttonSwedenNation.ImageIndex == 18) { buttonSwedenNation.ImageIndex = 19; }
+            //else { buttonSwedenNation.ImageIndex = 18; }
+            MessageBox.Show("Эта нация еще в разработке");
+        }
+        private void ButtonItalyNation_Click(object sender, EventArgs e)
+        {
+            //ResetOfPressetButtons();
+            //if (buttonItalyNation.ImageIndex == 20) { buttonItalyNation.ImageIndex = 21; }
+            //else { buttonItalyNation.ImageIndex = 20; }
+            MessageBox.Show("Эта нация еще в разработке");
         }
     }
 }

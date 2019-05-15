@@ -1,18 +1,16 @@
-﻿using System.Windows.Forms;
-
-namespace FullWOTDocumentation
+﻿namespace FullWOTDocumentation
 {
-    partial class MainForm
+    partial class TreeTanksForCopy
     {
         /// <summary>
-        /// Обязательная переменная конструктора.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Освободить все используемые ресурсы.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,29 +20,14 @@ namespace FullWOTDocumentation
             base.Dispose(disposing);
         }
 
-        #region Код, автоматически созданный конструктором форм Windows
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.Nations = new System.Windows.Forms.ImageList(this.components);
-            this.labelNameChoosedNations = new System.Windows.Forms.Label();
-            this.buttonItalyNation = new System.Windows.Forms.Button();
-            this.buttonSwedenNation = new System.Windows.Forms.Button();
-            this.buttonPolandNation = new System.Windows.Forms.Button();
-            this.buttonFranceNation = new System.Windows.Forms.Button();
-            this.buttonJapanNation = new System.Windows.Forms.Button();
-            this.buttonChinaNation = new System.Windows.Forms.Button();
-            this.buttonCzehoslovakiaNation = new System.Windows.Forms.Button();
-            this.buttonEnglandNation = new System.Windows.Forms.Button();
-            this.buttonUSANation = new System.Windows.Forms.Button();
-            this.buttonGermanyNation = new System.Windows.Forms.Button();
-            this.buttonUSSRNation = new System.Windows.Forms.Button();
             this.panelTreeTanksUSSR = new System.Windows.Forms.Panel();
             this.labelFixWidthUSSR = new System.Windows.Forms.Label();
             this.labelLVL10USSR = new System.Windows.Forms.Label();
@@ -150,220 +133,6 @@ namespace FullWOTDocumentation
             this.USSR_1_1 = new System.Windows.Forms.Button();
             this.panelTreeTanksUSSR.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // Nations
-            // 
-            this.Nations.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("Nations.ImageStream")));
-            this.Nations.TransparentColor = System.Drawing.Color.Transparent;
-            this.Nations.Images.SetKeyName(0, "USSR_False.png");
-            this.Nations.Images.SetKeyName(1, "USSR_True.png");
-            this.Nations.Images.SetKeyName(2, "Germany_False.png");
-            this.Nations.Images.SetKeyName(3, "Germany_True.png");
-            this.Nations.Images.SetKeyName(4, "USA_False.png");
-            this.Nations.Images.SetKeyName(5, "USA_True.png");
-            this.Nations.Images.SetKeyName(6, "England_False.png");
-            this.Nations.Images.SetKeyName(7, "England_True.png");
-            this.Nations.Images.SetKeyName(8, "Czechohoslovakia_False.png");
-            this.Nations.Images.SetKeyName(9, "Czechohoslovakia_True.png");
-            this.Nations.Images.SetKeyName(10, "China_False.png");
-            this.Nations.Images.SetKeyName(11, "China_True.png");
-            this.Nations.Images.SetKeyName(12, "Japan_False.png");
-            this.Nations.Images.SetKeyName(13, "Japan_True.png");
-            this.Nations.Images.SetKeyName(14, "France_False.png");
-            this.Nations.Images.SetKeyName(15, "France_True.png");
-            this.Nations.Images.SetKeyName(16, "Poland_False.png");
-            this.Nations.Images.SetKeyName(17, "Poland_True.png");
-            this.Nations.Images.SetKeyName(18, "Sweden_False.png");
-            this.Nations.Images.SetKeyName(19, "Sweden_True.png");
-            this.Nations.Images.SetKeyName(20, "Italy_False.png");
-            this.Nations.Images.SetKeyName(21, "Italy_True.png");
-            // 
-            // labelNameChoosedNations
-            // 
-            this.labelNameChoosedNations.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNameChoosedNations.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelNameChoosedNations.Location = new System.Drawing.Point(407, 3);
-            this.labelNameChoosedNations.Name = "labelNameChoosedNations";
-            this.labelNameChoosedNations.Size = new System.Drawing.Size(465, 39);
-            this.labelNameChoosedNations.TabIndex = 12;
-            this.labelNameChoosedNations.Text = "Техника СССР";
-            this.labelNameChoosedNations.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // buttonItalyNation
-            // 
-            this.buttonItalyNation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonItalyNation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonItalyNation.FlatAppearance.BorderSize = 0;
-            this.buttonItalyNation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonItalyNation.ImageIndex = 20;
-            this.buttonItalyNation.ImageList = this.Nations;
-            this.buttonItalyNation.Location = new System.Drawing.Point(12, 605);
-            this.buttonItalyNation.Name = "buttonItalyNation";
-            this.buttonItalyNation.Size = new System.Drawing.Size(85, 55);
-            this.buttonItalyNation.TabIndex = 11;
-            this.buttonItalyNation.TabStop = false;
-            this.buttonItalyNation.UseVisualStyleBackColor = true;
-            this.buttonItalyNation.Click += new System.EventHandler(this.ButtonItalyNation_Click);
-            // 
-            // buttonSwedenNation
-            // 
-            this.buttonSwedenNation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonSwedenNation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonSwedenNation.FlatAppearance.BorderSize = 0;
-            this.buttonSwedenNation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSwedenNation.ImageIndex = 18;
-            this.buttonSwedenNation.ImageList = this.Nations;
-            this.buttonSwedenNation.Location = new System.Drawing.Point(12, 549);
-            this.buttonSwedenNation.Name = "buttonSwedenNation";
-            this.buttonSwedenNation.Size = new System.Drawing.Size(85, 55);
-            this.buttonSwedenNation.TabIndex = 10;
-            this.buttonSwedenNation.TabStop = false;
-            this.buttonSwedenNation.UseVisualStyleBackColor = true;
-            this.buttonSwedenNation.Click += new System.EventHandler(this.ButtonSwedenNation_Click);
-            // 
-            // buttonPolandNation
-            // 
-            this.buttonPolandNation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonPolandNation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonPolandNation.FlatAppearance.BorderSize = 0;
-            this.buttonPolandNation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonPolandNation.ImageIndex = 16;
-            this.buttonPolandNation.ImageList = this.Nations;
-            this.buttonPolandNation.Location = new System.Drawing.Point(12, 493);
-            this.buttonPolandNation.Name = "buttonPolandNation";
-            this.buttonPolandNation.Size = new System.Drawing.Size(85, 55);
-            this.buttonPolandNation.TabIndex = 9;
-            this.buttonPolandNation.TabStop = false;
-            this.buttonPolandNation.UseVisualStyleBackColor = true;
-            this.buttonPolandNation.Click += new System.EventHandler(this.ButtonPolandNation_Click);
-            // 
-            // buttonFranceNation
-            // 
-            this.buttonFranceNation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonFranceNation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonFranceNation.FlatAppearance.BorderSize = 0;
-            this.buttonFranceNation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFranceNation.ImageIndex = 14;
-            this.buttonFranceNation.ImageList = this.Nations;
-            this.buttonFranceNation.Location = new System.Drawing.Point(12, 437);
-            this.buttonFranceNation.Name = "buttonFranceNation";
-            this.buttonFranceNation.Size = new System.Drawing.Size(85, 55);
-            this.buttonFranceNation.TabIndex = 8;
-            this.buttonFranceNation.TabStop = false;
-            this.buttonFranceNation.UseVisualStyleBackColor = true;
-            this.buttonFranceNation.Click += new System.EventHandler(this.ButtonFranceNation_Click);
-            // 
-            // buttonJapanNation
-            // 
-            this.buttonJapanNation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonJapanNation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonJapanNation.FlatAppearance.BorderSize = 0;
-            this.buttonJapanNation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonJapanNation.ImageIndex = 12;
-            this.buttonJapanNation.ImageList = this.Nations;
-            this.buttonJapanNation.Location = new System.Drawing.Point(12, 381);
-            this.buttonJapanNation.Name = "buttonJapanNation";
-            this.buttonJapanNation.Size = new System.Drawing.Size(85, 55);
-            this.buttonJapanNation.TabIndex = 7;
-            this.buttonJapanNation.TabStop = false;
-            this.buttonJapanNation.UseVisualStyleBackColor = true;
-            this.buttonJapanNation.Click += new System.EventHandler(this.ButtonJapanNation_Click);
-            // 
-            // buttonChinaNation
-            // 
-            this.buttonChinaNation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonChinaNation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonChinaNation.FlatAppearance.BorderSize = 0;
-            this.buttonChinaNation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonChinaNation.ImageIndex = 10;
-            this.buttonChinaNation.ImageList = this.Nations;
-            this.buttonChinaNation.Location = new System.Drawing.Point(12, 325);
-            this.buttonChinaNation.Name = "buttonChinaNation";
-            this.buttonChinaNation.Size = new System.Drawing.Size(85, 55);
-            this.buttonChinaNation.TabIndex = 6;
-            this.buttonChinaNation.TabStop = false;
-            this.buttonChinaNation.UseVisualStyleBackColor = true;
-            this.buttonChinaNation.Click += new System.EventHandler(this.ButtonChinaNation_Click);
-            // 
-            // buttonCzehoslovakiaNation
-            // 
-            this.buttonCzehoslovakiaNation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonCzehoslovakiaNation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonCzehoslovakiaNation.FlatAppearance.BorderSize = 0;
-            this.buttonCzehoslovakiaNation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCzehoslovakiaNation.ImageIndex = 8;
-            this.buttonCzehoslovakiaNation.ImageList = this.Nations;
-            this.buttonCzehoslovakiaNation.Location = new System.Drawing.Point(13, 269);
-            this.buttonCzehoslovakiaNation.Name = "buttonCzehoslovakiaNation";
-            this.buttonCzehoslovakiaNation.Size = new System.Drawing.Size(85, 55);
-            this.buttonCzehoslovakiaNation.TabIndex = 5;
-            this.buttonCzehoslovakiaNation.TabStop = false;
-            this.buttonCzehoslovakiaNation.UseVisualStyleBackColor = true;
-            this.buttonCzehoslovakiaNation.Click += new System.EventHandler(this.ButtonCzehoslovakiaNation_Click);
-            // 
-            // buttonEnglandNation
-            // 
-            this.buttonEnglandNation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonEnglandNation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonEnglandNation.FlatAppearance.BorderSize = 0;
-            this.buttonEnglandNation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonEnglandNation.ImageIndex = 6;
-            this.buttonEnglandNation.ImageList = this.Nations;
-            this.buttonEnglandNation.Location = new System.Drawing.Point(12, 213);
-            this.buttonEnglandNation.Name = "buttonEnglandNation";
-            this.buttonEnglandNation.Size = new System.Drawing.Size(85, 55);
-            this.buttonEnglandNation.TabIndex = 4;
-            this.buttonEnglandNation.TabStop = false;
-            this.buttonEnglandNation.UseVisualStyleBackColor = true;
-            this.buttonEnglandNation.Click += new System.EventHandler(this.ButtonEnglandNation_Click);
-            // 
-            // buttonUSANation
-            // 
-            this.buttonUSANation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonUSANation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonUSANation.FlatAppearance.BorderSize = 0;
-            this.buttonUSANation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonUSANation.ImageIndex = 4;
-            this.buttonUSANation.ImageList = this.Nations;
-            this.buttonUSANation.Location = new System.Drawing.Point(12, 157);
-            this.buttonUSANation.Name = "buttonUSANation";
-            this.buttonUSANation.Size = new System.Drawing.Size(85, 55);
-            this.buttonUSANation.TabIndex = 3;
-            this.buttonUSANation.TabStop = false;
-            this.buttonUSANation.UseVisualStyleBackColor = true;
-            this.buttonUSANation.Click += new System.EventHandler(this.ButtonUSANation_Click);
-            // 
-            // buttonGermanyNation
-            // 
-            this.buttonGermanyNation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonGermanyNation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonGermanyNation.FlatAppearance.BorderSize = 0;
-            this.buttonGermanyNation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonGermanyNation.ImageIndex = 2;
-            this.buttonGermanyNation.ImageList = this.Nations;
-            this.buttonGermanyNation.Location = new System.Drawing.Point(12, 101);
-            this.buttonGermanyNation.Name = "buttonGermanyNation";
-            this.buttonGermanyNation.Size = new System.Drawing.Size(85, 55);
-            this.buttonGermanyNation.TabIndex = 2;
-            this.buttonGermanyNation.TabStop = false;
-            this.buttonGermanyNation.UseVisualStyleBackColor = true;
-            this.buttonGermanyNation.Click += new System.EventHandler(this.ButtonGermanyNation_Click);
-            // 
-            // buttonUSSRNation
-            // 
-            this.buttonUSSRNation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonUSSRNation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonUSSRNation.FlatAppearance.BorderSize = 0;
-            this.buttonUSSRNation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonUSSRNation.ImageIndex = 1;
-            this.buttonUSSRNation.ImageList = this.Nations;
-            this.buttonUSSRNation.Location = new System.Drawing.Point(12, 45);
-            this.buttonUSSRNation.Name = "buttonUSSRNation";
-            this.buttonUSSRNation.Size = new System.Drawing.Size(85, 55);
-            this.buttonUSSRNation.TabIndex = 1;
-            this.buttonUSSRNation.TabStop = false;
-            this.buttonUSSRNation.UseVisualStyleBackColor = true;
-            this.buttonUSSRNation.Click += new System.EventHandler(this.ButtonUSSRNation_Click);
             // 
             // panelTreeTanksUSSR
             // 
@@ -473,10 +242,10 @@ namespace FullWOTDocumentation
             this.panelTreeTanksUSSR.Controls.Add(this.button2);
             this.panelTreeTanksUSSR.Controls.Add(this.button1);
             this.panelTreeTanksUSSR.Controls.Add(this.USSR_1_1);
-            this.panelTreeTanksUSSR.Location = new System.Drawing.Point(104, 45);
+            this.panelTreeTanksUSSR.Location = new System.Drawing.Point(12, 12);
             this.panelTreeTanksUSSR.Name = "panelTreeTanksUSSR";
-            this.panelTreeTanksUSSR.Size = new System.Drawing.Size(1225, 634);
-            this.panelTreeTanksUSSR.TabIndex = 13;
+            this.panelTreeTanksUSSR.Size = new System.Drawing.Size(1227, 634);
+            this.panelTreeTanksUSSR.TabIndex = 1;
             // 
             // labelFixWidthUSSR
             // 
@@ -1599,32 +1368,14 @@ namespace FullWOTDocumentation
             this.USSR_1_1.TabStop = false;
             this.USSR_1_1.UseVisualStyleBackColor = false;
             // 
-            // MainForm
+            // TreeTanksForCopy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1330, 681);
+            this.ClientSize = new System.Drawing.Size(1263, 667);
             this.Controls.Add(this.panelTreeTanksUSSR);
-            this.Controls.Add(this.labelNameChoosedNations);
-            this.Controls.Add(this.buttonItalyNation);
-            this.Controls.Add(this.buttonSwedenNation);
-            this.Controls.Add(this.buttonPolandNation);
-            this.Controls.Add(this.buttonFranceNation);
-            this.Controls.Add(this.buttonJapanNation);
-            this.Controls.Add(this.buttonChinaNation);
-            this.Controls.Add(this.buttonCzehoslovakiaNation);
-            this.Controls.Add(this.buttonEnglandNation);
-            this.Controls.Add(this.buttonUSANation);
-            this.Controls.Add(this.buttonGermanyNation);
-            this.Controls.Add(this.buttonUSSRNation);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "MainForm";
-            this.Text = "Документация по игре World Of Tanks";
-            this.SizeChanged += new System.EventHandler(this.MainForm_SizeChanged);
+            this.Name = "TreeTanksForCopy";
+            this.Text = "TreeTanksForCopy";
             this.panelTreeTanksUSSR.ResumeLayout(false);
             this.panelTreeTanksUSSR.PerformLayout();
             this.ResumeLayout(false);
@@ -1633,122 +1384,108 @@ namespace FullWOTDocumentation
 
         #endregion
 
-        private ImageList Nations;
-        private Button buttonUSSRNation;
-        private Button buttonGermanyNation;
-        private Button buttonUSANation;
-        private Button buttonEnglandNation;
-        private Button buttonCzehoslovakiaNation;
-        private Button buttonChinaNation;
-        private Button buttonJapanNation;
-        private Button buttonFranceNation;
-        private Button buttonPolandNation;
-        private Button buttonSwedenNation;
-        private Button buttonItalyNation;
-        private Label labelNameChoosedNations;
-        private Panel panelTreeTanksUSSR;
-        private Label labelFixWidthUSSR;
-        private Label labelLVL10USSR;
-        private Label labelLVL9USSR;
-        private Label labelLVL8USSR;
-        private Label labelLVL7USSR;
-        private Label labelLVL6USSR;
-        private Label labelLVL5USSR;
-        private Label labelLVL4USSR;
-        private Label labelLVL3USSR;
-        private Label labelLVL2USSR;
-        private Label labelLVL1USSR;
-        private Button button81;
-        private Button button82;
-        private Button button83;
-        private Button button84;
-        private Button button85;
-        private Button button86;
-        private Button button87;
-        private Button button88;
-        private Button button89;
-        private Button button90;
-        private Button button41;
-        private Button button42;
-        private Button button43;
-        private Button button44;
-        private Button button45;
-        private Button button46;
-        private Button button47;
-        private Button button48;
-        private Button button49;
-        private Button button50;
-        private Button button51;
-        private Button button52;
-        private Button button53;
-        private Button button54;
-        private Button button55;
-        private Button button56;
-        private Button button57;
-        private Button button58;
-        private Button button59;
-        private Button button60;
-        private Button button61;
-        private Button button62;
-        private Button button63;
-        private Button button64;
-        private Button button65;
-        private Button button66;
-        private Button button67;
-        private Button button68;
-        private Button button69;
-        private Button button70;
-        private Button button71;
-        private Button button72;
-        private Button button73;
-        private Button button74;
-        private Button button75;
-        private Button button76;
-        private Button button77;
-        private Button button78;
-        private Button button79;
-        private Button button80;
-        private Button button21;
-        private Button button22;
-        private Button button23;
-        private Button button24;
-        private Button button25;
-        private Button button26;
-        private Button button27;
-        private Button button28;
-        private Button button29;
-        private Button button30;
-        private Button button31;
-        private Button button32;
-        private Button button33;
-        private Button button34;
-        private Button button35;
-        private Button button36;
-        private Button button37;
-        private Button button38;
-        private Button button39;
-        private Button button40;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
-        private Button button20;
-        private Button button10;
-        private Button button9;
-        private Button button8;
-        private Button button7;
-        private Button button6;
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
-        private Button USSR_1_1;
+        private System.Windows.Forms.Panel panelTreeTanksUSSR;
+        private System.Windows.Forms.Label labelFixWidthUSSR;
+        private System.Windows.Forms.Label labelLVL10USSR;
+        private System.Windows.Forms.Label labelLVL9USSR;
+        private System.Windows.Forms.Label labelLVL8USSR;
+        private System.Windows.Forms.Label labelLVL7USSR;
+        private System.Windows.Forms.Label labelLVL6USSR;
+        private System.Windows.Forms.Label labelLVL5USSR;
+        private System.Windows.Forms.Label labelLVL4USSR;
+        private System.Windows.Forms.Label labelLVL3USSR;
+        private System.Windows.Forms.Label labelLVL2USSR;
+        private System.Windows.Forms.Label labelLVL1USSR;
+        private System.Windows.Forms.Button button81;
+        private System.Windows.Forms.Button button82;
+        private System.Windows.Forms.Button button83;
+        private System.Windows.Forms.Button button84;
+        private System.Windows.Forms.Button button85;
+        private System.Windows.Forms.Button button86;
+        private System.Windows.Forms.Button button87;
+        private System.Windows.Forms.Button button88;
+        private System.Windows.Forms.Button button89;
+        private System.Windows.Forms.Button button90;
+        private System.Windows.Forms.Button button41;
+        private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.Button button43;
+        private System.Windows.Forms.Button button44;
+        private System.Windows.Forms.Button button45;
+        private System.Windows.Forms.Button button46;
+        private System.Windows.Forms.Button button47;
+        private System.Windows.Forms.Button button48;
+        private System.Windows.Forms.Button button49;
+        private System.Windows.Forms.Button button50;
+        private System.Windows.Forms.Button button51;
+        private System.Windows.Forms.Button button52;
+        private System.Windows.Forms.Button button53;
+        private System.Windows.Forms.Button button54;
+        private System.Windows.Forms.Button button55;
+        private System.Windows.Forms.Button button56;
+        private System.Windows.Forms.Button button57;
+        private System.Windows.Forms.Button button58;
+        private System.Windows.Forms.Button button59;
+        private System.Windows.Forms.Button button60;
+        private System.Windows.Forms.Button button61;
+        private System.Windows.Forms.Button button62;
+        private System.Windows.Forms.Button button63;
+        private System.Windows.Forms.Button button64;
+        private System.Windows.Forms.Button button65;
+        private System.Windows.Forms.Button button66;
+        private System.Windows.Forms.Button button67;
+        private System.Windows.Forms.Button button68;
+        private System.Windows.Forms.Button button69;
+        private System.Windows.Forms.Button button70;
+        private System.Windows.Forms.Button button71;
+        private System.Windows.Forms.Button button72;
+        private System.Windows.Forms.Button button73;
+        private System.Windows.Forms.Button button74;
+        private System.Windows.Forms.Button button75;
+        private System.Windows.Forms.Button button76;
+        private System.Windows.Forms.Button button77;
+        private System.Windows.Forms.Button button78;
+        private System.Windows.Forms.Button button79;
+        private System.Windows.Forms.Button button80;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button button30;
+        private System.Windows.Forms.Button button31;
+        private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.Button button33;
+        private System.Windows.Forms.Button button34;
+        private System.Windows.Forms.Button button35;
+        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Button button37;
+        private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Button button39;
+        private System.Windows.Forms.Button button40;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button USSR_1_1;
     }
 }
-
